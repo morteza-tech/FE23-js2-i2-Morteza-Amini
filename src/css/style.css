@@ -1,0 +1,80 @@
+/* Global Styling */
+h1 {
+  text-align: center;
+}
+
+/* Form Styling */
+#formDiv, #labelDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#labelDiv label {
+  padding: 10px;
+  border: solid 1px rgb(129, 19, 19);
+  border-radius: 10px;
+}
+
+#uxLabel {
+  background-color: #d10e79;
+}
+
+#devFrontLabel {
+  background-color: #6ebaf8;
+  margin: 0 10px;
+}
+
+#devBackLabel {
+  background-color: #b990f7;
+}
+
+/* Scrumboard Styling */
+#outerDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+#toDo, #inProgress, #done {
+  text-align: center;
+  min-height: 400px;
+  width: 30%;
+  border-radius: 10px;
+  border: solid 1px rgb(163, 163, 163);
+  margin: 0 20px;
+}
+
+#toDo {
+  background-color: #F7d9c4;
+}
+
+#inProgress {
+  background-color: #faedcb;
+}
+
+#done {
+  background-color: #c9e4de;
+}
+
+/* Tasks Styling */
+.uxTask, .frontDevTask, .backDevTask {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  padding: 5px 0;
+  border-radius: 10px;
+  border: solid 1px white;
+  margin-bottom: 10px;
+}
+
+.uxTask {
+  background-color: #ec118a;
+}
+
+.frontDevTask {
+  background-color: #71bdfc;
+}
+
+.backDevTask {
+  background-color: #9e67f1;
+}
